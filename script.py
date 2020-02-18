@@ -1,8 +1,11 @@
 import numpy as np
 import pygame
+import time
 
 from Gui import Gui
 from Solver import Solver
+
+pygame.init()
 
 # grid = np.array([
 #         [0,6,9,0,0,0,0,0,0],
@@ -31,6 +34,8 @@ grid = np.array([
 WIDTH = 600
 HEIGHT = 600
 
+# for improvement check if oneleft before and fillz
+
 def main():
     surface = (WIDTH, HEIGHT)
     window = pygame.display.set_mode(surface)
@@ -42,6 +47,7 @@ def main():
     running = True
     waiting = False
     while running:
+        start_time = time.time()
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False 
@@ -52,6 +58,8 @@ def main():
                 GUI.renderPuzzle(window, solvedGrid, True)
                 pygame.display.update()
                 waiting = True
+                elapsed_time = time.time() - start_time
+                print(elapsed_time)
 
 if __name__ == "__main__":
     main()
