@@ -10,6 +10,7 @@ class Solver:
         self.window = window
         self.gui = gui
         self.wasSolved = False
+        # self.EXPECTED_GROUP_SUM = 45 # sum(x) from 1..9 = 45
 
     def solve(self, window):
         if self.wasSolved == True:
@@ -17,6 +18,8 @@ class Solver:
         for y in range(9):
             for x in range(9):
                 if self.grid[y][x] == 0:
+                    # if self.onlyOneEmptyCellLeftInGroup():
+                    #     pass
                     for n in range(1, 10):
                         if self.isMovePossible(x, y, n):
                             self.grid[y][x] = n 
@@ -31,6 +34,25 @@ class Solver:
         print(self.grid)
         self.wasSolved = True
         return self.grid
+    
+    # def onlyOneEmptyCellLeftInGroup(self):
+    #     if self.isLastEmptyCellInRow():
+    #         pass
+    #     pass
+        # if isNotLastEmptyCellInColumn(n):
+        #     return False
+        
+        
+
+    # def isLastEmptyCellInRow(self):
+    #     currentGroupSum = ____something
+    #     missingNumber = self.EXPECTED_GROUP_SUM - currentGroupSum
+
+    # def isNotLastEmptyCellInColumn(self):
+    #     pass
+
+    # def isNotLastEmptyCellInSquare(self):
+    #     pass
 
     def isMovePossible(self, x, y, n):
         okay_in_row = self.possibleForRow(y, n)
