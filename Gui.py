@@ -74,7 +74,8 @@ class Gui:
                 text = fnt.render(str(x), 1, Gui.BLACK)
                 u = i // 3
                 v = j // 3
-                x = u*(self.gridWidth + Gui.fatLine) + Gui.fatLine + ((i % 3)*(self.cellWidth + Gui.skinnyLine)) + 20
-                y = v*(self.gridHeight + Gui.fatLine) + Gui.fatLine + ((j % 3)*(self.cellHeight + Gui.skinnyLine)) + 20
+                margin = 20
+                x = u*(self.gridWidth + Gui.fatLine) + Gui.fatLine + ((i % 3)*(self.cellWidth + Gui.skinnyLine)) + margin
+                y = v*(self.gridHeight + Gui.fatLine) + Gui.fatLine + ((j % 3)*(self.cellHeight + Gui.skinnyLine)) + margin
                 window.blit(text, (x, y))
 
