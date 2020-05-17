@@ -22,5 +22,5 @@ If it's not a bad time, go [check it out](#watch-a-puzzle-solve-itself)
 
 
 
-## The Solved Puzzle
-![Solved Sudoku Puzzle](https://bigpictureprogrammer.com/wp-content/uploads/2020/05/IMG_03571500x1516-1-297x300.jpeg?raw=true)
+## The puzzle the algorithm will solve:
+![Solved Sudoku Puzzle](https://bigpictureprogrammer.com/wp-content/uploads/2020/05/blank_puzzle1500x1568-287x300.jpeg?raw=true)
