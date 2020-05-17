@@ -6,7 +6,7 @@ This is a demonstration of animating a recursive algorithm called backtracking. 
 ## Why does this exist? 
 Me personally, I am a big fan of puzzles, sudoku especially. I built this app because I wanted a way to see how a computer might solve a sudoku puzzle (and also to watch as the chaos slowly sorts itself out). For those reasons, I created the Self-Solving Sudoku animation! 
 
-If it's not a bad time, go [check it out](#watch-a-puzzle-solve-itself)
+If it's not a bad time, go [watch](#watch-a-puzzle-solve-itself)
 
 # Watch a puzzle solve itself:
 1) Clone or Fork this repo
