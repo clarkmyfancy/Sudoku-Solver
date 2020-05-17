@@ -1,6 +1,6 @@
 # Welcome to the Self-Solving Sudoku Puzzle!
 
-Watching a chaotic envrionment slowly sort itself out is extremely satisfying. For that reason, I created this self-solving sudoku animation! If it's not a bad time, go [check it out](#)
+Watching a chaotic envrionment slowly sort itself out is extremely satisfying. For that reason, I created this self-solving sudoku animation! If it's not a bad time, go [check it out](#watch)
 ### What is this project?
 It has been said that any sufficiently complex system (that works), evolved from a simpler (also working) system. That idea always fascinates me. 
 
@@ -16,7 +16,7 @@ I built this project to practice a recursive algorithm called backtracking.
 ### What will happen when you run this program? 
 
 
-# To watch a sudoku puzzle struggle to solve itself:
+# Watch a puzzle solve itself:
 1) Clone or Fork this repo
 2) Navigate to the directory you just cloned/forked (using Z shell, Bash, PowerShell, etc.)
 3) Install or upgrade `numpy` and `pygame`
