@@ -1,15 +1,15 @@
 # Welcome to the Self-Solving Sudoku Puzzle!
 
-Watching a chaotic envrionment slowly sort itself out is extremely satisfying. For that reason, I created this self-solving sudoku animation! If it's not a bad time, go [check it out](#watch-a-puzzle-solve-itself)
-### What is this project?
-It has been said that any sufficiently complex system (that works), evolved from a simpler (also working) system. That idea always fascinates me. 
+### What is this?
+This is a demonstration of a recursive algorithm called backtracking. Running the program will open up a window with a blank puzzle that will start to solve itself. 
 
-I got the idea to animate a backtracking algorithm from Youtube. Sorting algorithms the chaos slowly organize itselfslowly takes shape
+### Why does it exist? 
+Me personally, I am a big fan of puzzles, sudoku especially. I built this app because I wanted a way to see how a computer might solve a sudoku puzzle (And also to watch as a chaotic envrionment slowly sorts itself out). For that reason, I created this self-solving sudoku animation! 
 
-order come from do much disorder  I built this animation to satisfy my itch to see a complex system working, while understanding completly the parts that put it together. 
+If it's not a bad time, go [check it out](#watch-a-puzzle-solve-itself)
 
-### Why does this exist? 
-I built this project to practice a recursive algorithm called backtracking. 
+### What is this and why does it exist?
+This project demonstrates understanding of a recursive algorithm, called backtracking, and also principles of component design. I built this project to practice a recursive algorithm called backtracking. 
 
 ### Why does that matter?
 
