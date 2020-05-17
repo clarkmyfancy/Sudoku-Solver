@@ -8,4 +8,4 @@ I built this project to practice a recursive algorithm called backtracking.
 3) Run `python script.py` to see the sudoku puzzle solving itself!
 
 ## The Solved Puzzle
-![Solved Sudoku Puzzle](https://bigpictureprogrammer.com/wp-content/uploads/2020/04/IMG-0357-1-1997x2048.jpg?raw=true)
+![Solved Sudoku Puzzle](https://bigpictureprogrammer.com/wp-content/uploads/2020/05/IMG_03571500x1516-1-297x300.jpeg?raw=true)
