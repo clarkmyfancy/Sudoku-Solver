@@ -13,7 +13,7 @@ I built this project to practice a recursive algorithm called backtracking.
 To run this app:
 1) Clone or Fork this repo
 2) Install or upgrade `numpy` and `pygame`
-    
+- 1) kdfj
 3) Run `python script.py` to see the sudoku puzzle solving itself!
 
 
