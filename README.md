@@ -1,6 +1,7 @@
 # Sudoku-Solver
 
 ### What is this? 
+It has been said that any sufficiently complex system (that works), evolved from a simpler (also working) version of itself. That idea fascinates me. I built this animation to satisfy my itch to see a complex system working, while understanding completly the parts that put it together. 
 
 ### Why does this exist? 
 I built this project to practice a recursive algorithm called backtracking. 
