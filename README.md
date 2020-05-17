@@ -12,12 +12,12 @@ I built this project to practice a recursive algorithm called backtracking.
 
 To watch a sudoku puzzle struggle to solve itself:
 1) Clone or Fork this repo
-2) Navigate to the directory you just cloned/forked (using Bash, PowerShell, etc.)
+2) Navigate to the directory you just cloned/forked (using Z shell, Bash, PowerShell, etc.)
 3) Install or upgrade `numpy` and `pygame`
     1) Example using pip:
     ```
-    pip install numpy
-    pip install pygame
+    clarkmyfancy@pio ~ % pip install numpy
+    clarkmyfancy@pio ~ % pip install pygame
     ```
 4) Run `python script.py`
 
