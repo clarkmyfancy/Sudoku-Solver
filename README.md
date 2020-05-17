@@ -10,13 +10,13 @@ I built this project to practice a recursive algorithm called backtracking.
 ### What will happen when you run this program? 
 
 
-To run this app:
+To watch a sudoku puzzle struggle to solve itself:
 1) Clone or Fork this repo
 2) Install or upgrade `numpy` and `pygame`
     1) Using Bash or PowerShell navigate to the directory you just cloned/forked
     2) run `pip install numpy`
     3) run `pip install pygame` 
-3) Run `python script.py` to see the sudoku puzzle solving itself!
+3) Run `python script.py`
 
 
 
