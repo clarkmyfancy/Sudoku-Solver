@@ -1,7 +1,7 @@
 # Welcome to the Self-Solving Sudoku Puzzle!
 
 ## What is this?
-This is a demonstration of a recursive algorithm called backtracking. Running the program will open up a window with a blank puzzle that will start to solve itself. 
+This is a demonstration of animating a recursive algorithm called backtracking. Running the program will open up a window with a blank sudoku puzzle that will go on to solve itself. 
 
 ## Why does it exist? 
 Me personally, I am a big fan of puzzles, sudoku especially. I built this app because I wanted a way to see how a computer might solve a sudoku puzzle (And also to watch as a chaotic envrionment slowly sorts itself out). For that reason, I created this self-solving sudoku animation! 
