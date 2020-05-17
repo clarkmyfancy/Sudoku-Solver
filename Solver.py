@@ -9,11 +9,11 @@ class Solver:
         self.grid = grid
         self.window = window
         self.gui = gui
-        self.wasSolved = False
+        self.wasAbleToSolve = False
         # self.EXPECTED_GROUP_SUM = 45 # sum(x) from 1..9 = 45
 
     def solve(self, window):
-        if self.wasSolved == True:
+        if self.wasAbleToSolve == True:
             return self.grid
         for y in range(9):
             for x in range(9):
@@ -26,13 +26,13 @@ class Solver:
                             self.gui.renderPuzzle(window, self.grid, False)
                             pygame.display.update()
                             self.solve(window)
-                            if self.wasSolved:
+                            if self.wasAbleToSolve:
                                 return self.grid
                             self.grid[y][x] = 0
                     return
         print()
         print(self.grid)
-        self.wasSolved = True
+        self.wasAbleToSolve = True
         return self.grid
     
     # def onlyOneEmptyCellLeftInGroup(self):

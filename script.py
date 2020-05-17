@@ -54,7 +54,7 @@ def main():
         if not waiting:
             GUI.renderPuzzle(window, grid, False)
             solvedGrid = solver.solve(window)
-            if solver.wasSolved:
+            if solver.wasAbleToSolve:
                 GUI.renderPuzzle(window, solvedGrid, True)
                 pygame.display.update()
                 waiting = True
