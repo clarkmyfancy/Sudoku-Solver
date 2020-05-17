@@ -26,14 +26,3 @@ To watch a sudoku puzzle struggle to solve itself:
 
 ## The Solved Puzzle
 ![Solved Sudoku Puzzle](https://bigpictureprogrammer.com/wp-content/uploads/2020/05/IMG_03571500x1516-1-297x300.jpeg?raw=true)
-
-What is Agrilife?
-
-What is the purpose of this project?
-
-Why does this matter?
-
-Important contacts
-
-
-Getting started
