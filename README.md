@@ -16,8 +16,8 @@ To watch a sudoku puzzle struggle to solve itself:
 3) Install or upgrade `numpy` and `pygame`
     1) Example using pip:
     ```
-    run `pip install numpy`
-    run `pip install pygame` 
+    pip install numpy
+    pip install pygame
     ```
 4) Run `python script.py`
 
